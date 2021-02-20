@@ -1,6 +1,6 @@
 ---
 # vars file for ec2_launcher
-mykey: "anotheraccountkey"
+mykey: "you_key"
 instancetype: "t2.micro"
 imageid: "ami-08f63db601b82ff5f"
 subnetid: "subnet-093b4145"

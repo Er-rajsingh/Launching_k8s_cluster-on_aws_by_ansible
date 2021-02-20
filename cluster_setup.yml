@@ -1,0 +1,11 @@
+---
+ - hosts: master
+   roles:
+     - role: k8s_master
+ - hosts: worker
+   vars_prompt:
+      - name: "master_token"
+        prompt: "Enter Token To Join To Master: "
+        private: no
+   roles:
+     - role: k8s_worker

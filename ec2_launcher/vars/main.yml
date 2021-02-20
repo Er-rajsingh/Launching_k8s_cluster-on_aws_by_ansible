@@ -8,5 +8,5 @@ region_name: "ap-south-1"
 osname: "dynamic_os"
 total_instance: 1
 security: "sg-00e31b5ef35314658"
-awsaccess: "AKIA6HALVM2YVWH6HNRH"
-awssecret: "EZp+lGV4fUmj3pOx2cY2ew9+3ycTqEubXSSd2F4z"
+awsaccess: "your_access_key"
+awssecret: "your_secret_key"
